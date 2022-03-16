@@ -13,7 +13,6 @@ public class Test {
         System.out.println("true");
 
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader("C:\\Users\\Dmitr\\Desktop\\test\\src\\User"))) {
-
             List<User> users = new ArrayList<>();
 
             while (bufferedReader.ready()) {
